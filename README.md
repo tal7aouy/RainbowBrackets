@@ -1,32 +1,25 @@
-<h1 align="center">
-  <br>
-    <img src="icon.png" alt="logo" width="200">
-  <br><br>
- Rainbow Brackets
-  <br>
-  <br>
-</h1>
+# Rainbow Brackets
 
-<h5 align="center">This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colors to use.</h5>
+![logo](icon.png)
 
-<p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.rainbow-bracket"><img src="https://vsmarketplacebadge.apphb.com/version-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=VERSION" alt="Version"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.rainbow-bracket"><img src="https://vsmarketplacebadge.apphb.com/rating-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Rating" alt="Rating"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.rainbow-bracket"><img src="https://vsmarketplacebadge.apphb.com/installs-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Installs" alt="Installs"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.rainbow-bracket"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Downloads" alt="Downloads"></a>
-</p>
+This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colors to use.
 
----
+![Version](https://vsmarketplacebadge.apphb.com/version-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=VERSION)
+![Rating](https://vsmarketplacebadge.apphb.com/rating-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Rating)
+![Installs](https://vsmarketplacebadge.apphb.com/installs-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Installs)
+![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/tal7aouy.rainbow-bracket.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Downloads)
+
+## Table of Contents
 
 - [Supported languages](#supported-languages)
 - [Author's choice](#authors-choice)
 - [Install](#install)
 - [Screenshots](#screenshots)
-- [Settings](#Settings)
-- [Commands](#Commands)
-- [HTML Configuration](#HTML_Configuration)
-- [Release Notes](#CHANGELOG)
-- [Issues Suggestions](#Issues&Suggestions)
+- [Settings](#settings)
+- [Commands](#commands)
+- [HTML Configuration](#html-configuration)
+- [Release Notes](#changelog)
+- [Issues & Suggestions](#issues--suggestions)
 
 ## Supported languages
 
@@ -48,16 +41,16 @@ Rainbow Brackets + Theme + Error Lens +[Monolisa](https://www.monolisa.dev/) (Fo
 
 - Python
 
-![](./images/python.png)
-![](./images/rainbow.png)
+![Python code example with Rainbow Brackets](./images/python.png)
+![Rainbow Brackets code example](./images/rainbow.png)
 
 - Typescript
 
-![](./images/typescript.png)
+![TypeScript code example with Rainbow Brackets](./images/typescript.png)
 
 - Vue
 
-![](./images/vue.png)
+![Vue code example with Rainbow Brackets](./images/vue.png)
 
 ## Settings
 
@@ -92,19 +85,19 @@ These commands will expand/undo the cursor selection to the next scope
 Quick-start:
 
 ```json
-	{
-		"key": "shift+alt+right",
-		"command": "rainbow-brackets.expandBracketSelection",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "shift+alt+left",
-		"command": "rainbow-brackets.undoBracketSelection",
-		"when": "editorTextFocus"
-	}
+{
+"key": "shift+alt+right",
+"command": "rainbow-brackets.expandBracketSelection",
+"when": "editorTextFocus"
+},
+{
+"key": "shift+alt+left",
+"command": "rainbow-brackets.undoBracketSelection",
+"when": "editorTextFocus"
+}
 ```
 
-### HTML_Configuration
+### HTML Configuration
 
 > An example configuration for HTML is:
 
@@ -144,6 +137,6 @@ By default (), [], and {} are matched, however custom bracket characters can als
 
 ---
 
-## Issues&Suggestion
+## Issues & Suggestions
 
 For any issues or suggestions, please use [GitHub issues](https://github.com/tal7aouy/RainbowBrackets/issues).
